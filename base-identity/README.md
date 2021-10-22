@@ -1,8 +1,8 @@
-# Storm CMS
+# Demo System
 
 This is a headless content management system that uses the following tech stack:
 1. React w/Antd components
-2. c# .net Core 3 Web API 
+2. c# .net Core 5 Web API 
 3. Identity
 4. SQL Server
 5. Entity Framework Core
