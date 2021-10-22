@@ -29,11 +29,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Assets\MediaTypes\" />
+    <ProjectReference Include="..\Demo.Core\Demo.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Demo.Core\Demo.Core.csproj" />
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 
