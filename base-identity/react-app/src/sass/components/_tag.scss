@@ -1,0 +1,17 @@
+.tag-container {
+  line-height: 1;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  .ant-tag {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    
+    background: white;
+    color: $secondary;
+    border-color: $secondary;
+
+    cursor: initial;
+    user-select: none;
+  }
+}

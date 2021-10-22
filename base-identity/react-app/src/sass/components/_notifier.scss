@@ -1,0 +1,21 @@
+.notifier-container {
+  text-align: center;
+  position: fixed;
+  top: $navbar-height + 3px;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  .notifier-alert {
+    display: inline-block;
+    .ant-alert-message {
+      padding-right: 3px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .notifier-container {
+    top: $navbar-height - 1px;
+  }
+}

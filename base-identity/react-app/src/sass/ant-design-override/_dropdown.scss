@@ -1,0 +1,15 @@
+.ant-dropdown {
+  .ant-dropdown-menu {
+    .ant-dropdown-menu-item {
+      a {
+        &:hover {
+          color: inherit;
+        }
+        &.active {
+          color: inherit;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

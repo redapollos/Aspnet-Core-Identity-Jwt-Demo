@@ -1,0 +1,26 @@
+.ant-drawer {
+    color: white;
+    
+    .ant-drawer-header {
+        max-height: 64px;
+        background: $primary-main;
+        padding: 0 20px;
+        color: white;
+    }
+    
+    .ant-drawer-title {
+        padding: 20px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .navbar-logo-container {
+      width:200px;
+      color: $text-dark;
+    }
+  
+    .navbar-logo {
+      height: 60px;
+      vertical-align: top;
+    }
+}

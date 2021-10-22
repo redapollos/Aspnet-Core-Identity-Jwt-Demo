@@ -1,0 +1,60 @@
+.ant-form {
+  // hover / active effects
+  // .ant-input,
+  // .ant-select-selection,
+  // .ant-calendar-picker-input,
+  // .ant-calendar-picker {
+  //   &:not(.ant-input-disabled) {
+  //     &:focus,
+  //     &:hover {
+  //       border-color: $primary-main !important;
+  //     }
+
+  //     &:focus {
+  //       box-shadow: 0 0 0 2px rgba($primary-main, 0.2) !important;
+  //     }
+  //   }
+  // }
+
+  .ant-form-item {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .ant-input-prefix {
+    .anticon {
+      color: rgba(0, 0, 0, 0.25);
+    }
+  }
+  .ant-form-explain {
+    text-align: left;
+    color: $primary-main;
+  }
+
+  .ant-calendar-picker {
+    .ant-form-explain {
+      line-height: 30px;
+    }
+  }
+}
+
+.ant-checkbox-wrapper {
+  .ant-checkbox {
+    .ant-checkbox-inner {
+      border-color: $gray !important;
+    }
+
+    &.ant-checkbox-checked {
+      .ant-checkbox-inner {
+        background-color: $gray;
+      }
+    }
+    &:after {
+      border-color: $gray;
+    }
+  }
+}
+
+.ant-checkbox-group-vertical .ant-checkbox-group-item {
+  display: flex;
+  margin-right: 0;
+}

@@ -1,0 +1,24 @@
+.content-editor {
+
+  .ant-row.editor-field {
+    margin-bottom: 1.5rem !important;
+
+    .ant-col:first-child {
+      text-align: right;
+      padding-right: 0.5rem !important;
+      padding-top: 0.25rem !important;
+    }
+  }
+
+  .required {
+    color: $required;
+    font-weight: bold;
+  }
+
+  .editor-sub-title {
+    display: inline-block;
+    font-weight: bold;
+    font-family: $bold-font-family;
+  }
+}
+

@@ -1,0 +1,11 @@
+.ant-calendar-picker {
+  display: block;
+  width: 90%;
+}
+
+@media(max-width: 576px){
+  .ant-calendar-input-wrap {
+    display: none;
+  }
+}
+

@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>RainstormTech</RootNamespace>
+    <AssemblyName>Demo.Data</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200308204924_IdentityInit.cs" />
+    <Compile Remove="Migrations\20200308204924_IdentityInit.Designer.cs" />
+    <Compile Remove="Migrations\20200309015939_IdentityInit.cs" />
+    <Compile Remove="Migrations\20200309015939_IdentityInit.Designer.cs" />
+    <Compile Remove="Migrations\20200405025759_Cms.cs" />
+    <Compile Remove="Migrations\20200405025759_Cms.Designer.cs" />
+    <Compile Remove="Migrations\20200405030447_Cms.cs" />
+    <Compile Remove="Migrations\20200405030447_Cms.Designer.cs" />
+    <Compile Remove="Migrations\20200405030749_Cms.cs" />
+    <Compile Remove="Migrations\20200405030749_Cms.Designer.cs" />
+    <Compile Remove="Migrations\20200405031509_Cms.cs" />
+    <Compile Remove="Migrations\20200405031509_Cms.Designer.cs" />
+    <Compile Remove="Migrations\20200405031822_Cms.cs" />
+    <Compile Remove="Migrations\20200405031822_Cms.Designer.cs" />
+    <Compile Remove="Migrations\20200606003621_ManyUpdates.cs" />
+    <Compile Remove="Migrations\20200606003621_ManyUpdates.Designer.cs" />
+    <Compile Remove="Migrations\20200629234405_Navigation.cs" />
+    <Compile Remove="Migrations\20200629234405_Navigation.Designer.cs" />
+    <Compile Remove="Migrations\20200629234742_Navigation.cs" />
+    <Compile Remove="Migrations\20200629234742_Navigation.Designer.cs" />
+    <Compile Remove="Migrations\20201230043508_Lists.cs" />
+    <Compile Remove="Migrations\20201230043508_Lists.Designer.cs" />
+    <Compile Remove="Migrations\20201230043540_Lists.cs" />
+    <Compile Remove="Migrations\20201230043540_Lists.Designer.cs" />
+    <Compile Remove="Migrations\20201231020822_SystemLists.cs" />
+    <Compile Remove="Migrations\20201231020822_SystemLists.Designer.cs" />
+    <Compile Remove="Migrations\20201231021039_SystemLists.cs" />
+    <Compile Remove="Migrations\20201231021039_SystemLists.Designer.cs" />
+    <Compile Remove="Migrations\20201231021134_SystemLists.cs" />
+    <Compile Remove="Migrations\20201231021134_SystemLists.Designer.cs" />
+    <Compile Remove="Migrations\20201231021434_SystemLists.cs" />
+    <Compile Remove="Migrations\20201231021434_SystemLists.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HotChocolate.AspNetCore" Version="11.3.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
+</Project>

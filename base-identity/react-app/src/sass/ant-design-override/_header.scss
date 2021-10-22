@@ -1,0 +1,16 @@
+.ant-layout-header {
+  display: flex;
+  padding: 0 20px;
+  /* justify-content: space-between; */
+
+  .auth-user-panel {
+    display: flex;
+    div {
+      margin: 4px;
+      padding: 4px;
+      border: solid 1px #eee;
+    }
+
+    position: relative;
+  }
+}

@@ -1,0 +1,25 @@
+// primary colors
+$primary-main: #4189E2;
+$primary-alt: #0C8AEE;
+$gray: #6d6e71;
+$light-gray: #F4F4F4;
+$off-white: #fefefe;
+$required: #ff0000;
+
+// text
+$text-dark: rgba(0, 0, 0, 0.65);
+
+// secondary colors
+$secondary: #F58026;
+$danger: #ff0000;
+
+// inactive state
+$primary-inactive: rgba($primary-main, 0.3);
+
+// background color
+$background-dev: $light-gray;
+$background-staging: $light-gray;
+
+//ant colors
+$ant-border-color: #d9d9d9;
+$ant-table-border-color: #e8e8e8;

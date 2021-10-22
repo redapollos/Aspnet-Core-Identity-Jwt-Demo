@@ -1,0 +1,171 @@
+
+/* fonts */
+body {
+    font-family: $normal-font-family;
+    /*background-image: url('/assets/images/app-background.jpg');
+    background-attachment: fixed;
+    background-size: cover;*/
+    background-color: $light-gray;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $bold-font-family;
+    color: $text-dark;
+  }
+
+  label {
+    font-weight: bold;
+    margin-bottom: 4px;
+    display: inline-block;
+  }
+  
+  #root {
+    height: 100%;
+    /* background-color: $light-gray; */
+  }
+  
+  .button-row {
+    width: 100%;
+    text-align: right;
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  
+  .avatar-50 {
+    max-width: 50px;
+  }
+  
+  .avatar-20 {
+    max-width: 20px;
+  }
+
+  .countdown .ant-statistic-content-value {
+    font-size: 4rem;
+  }
+
+  .countdown.inline .ant-statistic-content-value {
+    font-size: 1rem;
+  }
+
+  .ant-row.content-cards {  
+
+    .ant-col {        
+        margin: 24px 8px 0;
+        background-color: #ffffff;
+        box-shadow: none;
+        padding:20px;
+        border-radius: 8px;
+    }
+    .ant-col:hover, .act-col:active {        
+        box-shadow: 0 0 10px 0 $gray;
+        transition: 0.3s;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        /* min-height: 400px; */
+        cursor: pointer;
+
+        .card-header {
+            text-align: right;
+            margin-bottom: 4px;
+
+            .anticon {
+                margin-left: 6px;
+                opacity: 0.5;
+            }
+
+            .anticon:hover {
+              opacity: 1;
+            }
+
+            .anticon-share-alt:hover {
+                opacity: 1;
+            }
+
+            .anticon-heart.active {
+                color: $required;
+            }
+        }
+
+        .card-footer {            
+            margin-top: auto;
+            width: 100%;
+            min-height: 50px;
+
+            .card-title {
+                font-weight: bold;
+                font-size: 1.1rem;
+                margin-bottom: 5px;
+            }
+
+            .card-footer-percent {
+                float:right;
+            }
+        }
+    }    
+  }
+
+  
+
+.card-footer-strike {
+    text-decoration: line-through;
+    color: $required;
+    margin-right: 5px;
+}
+
+.card-footer-price {
+    font-weight: bold;
+    color: $primary-alt;
+    margin-right: 5px;
+}
+
+.card-footer-percent {
+    padding: 4px 8px;
+    background: $primary-main;
+    color: $off-white;
+}
+
+.content-modal {
+  .anticon {
+    margin-left: 6px;
+    opacity: 0.7;
+    font-size: 1.6em;
+  }
+
+  .anticon:hover {
+    opacity: 1;
+  }
+}
+
+.navbar .anticon {
+  vertical-align: -0.25em;
+}
+
+ol > li {
+  margin-bottom: 20px;
+}
+
+a:link.share-facebook, a:visited.share-facebook {
+  color: #3b5998;
+}
+
+a:link.share-twitter, a:visited.share-twitter {
+  color: #00acee;
+}
+
+a:link.share-instagram, a:visited.share-instagram {
+  color: #f56040;
+}
+
+.cms-terms {
+  max-height: 300px;
+  overflow: auto;
+}
+
+.is-deleted {
+  text-decoration: line-through;
+}

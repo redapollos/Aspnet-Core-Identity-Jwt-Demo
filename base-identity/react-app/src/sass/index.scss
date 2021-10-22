@@ -1,0 +1,29 @@
+@import "colors";
+@import "variables";
+
+@import "components/index";
+@import "pages/index";
+@import "ant-design-override/index";
+@import "helpers/index";
+
+
+
+#root {
+  height: 100%;
+  background-color: $light-gray;
+}
+
+#root.root-dev {
+  background-color: $background-dev;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='50px' width='120px'><text x='0' y='15' fill='%23d4d4d4' font-size='20'>development</text></svg>");
+}
+
+#root.root-staging {
+  background-color: $background-staging;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='50px' width='120px'><text x='0' y='15' fill='%23d4d4d4' font-size='20'>staging</text></svg>");
+}
+
+.button-row {
+  width: 100%;
+  text-align: right;
+}

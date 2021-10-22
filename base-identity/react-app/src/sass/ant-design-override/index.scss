@@ -1,0 +1,77 @@
+.ant-layout {
+  background: transparent;
+  height: 100%;
+}
+
+.ant-table-wrapper {
+  @media (max-width: 767px) {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid #e8e8e8;
+    table {
+      border: none;
+    }
+  }
+}
+
+.ant-list {
+  .ant-list-header {
+    background: #f3f3f3;
+  }
+}
+
+
+.ant-layout-sider, .ant-drawer-content {
+  background-color: #DBDDDE;
+}
+
+.ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left {
+  border-right: 0px;
+}
+
+.ant-drawer-header {
+  background-color: $off-white;
+}
+
+.ant-menu {
+  background-color: #DBDDDE;
+
+  .ant-menu-item-divider {
+    background-color: $primary-alt;
+    margin:0 20px;
+    
+  }
+}
+
+.anticon {
+  font-size: 1.3em;
+}
+
+.row-dragging {
+  background: #fafafa;
+  border: 1px solid #ccc;
+}
+
+.row-dragging td {
+  padding: 16px;
+  visibility: hidden;
+}
+
+.row-dragging .drag-visible {
+  visibility: visible;
+}
+
+.ant-upload-select-picture-card img {
+  max-height: 100%;
+}
+
+@import "header";
+@import "button";
+@import "title";
+@import "form";
+@import "calendar-picker";
+@import "divider";
+@import "dropdown";
+@import "steps";
+@import "drawer";
+@import "typography";

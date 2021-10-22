@@ -1,0 +1,27 @@
+.collapse-container {
+  &__content {
+    transition: all 200ms ease-out;
+  }
+  &__button-row {
+    margin-top: 10px;
+    margin-bottom: 24px;
+    text-align: right;
+  }
+
+  &.closed {
+    .collapse-container__content {
+      overflow: hidden;
+      max-height: 0;
+    }
+  }
+
+  &.open {
+    .collapse-container__content {
+      overflow: hidden;
+      max-height: 339px;
+      @media (max-width: 576px) {
+          max-height: 779px;
+      }
+    }
+  }
+}

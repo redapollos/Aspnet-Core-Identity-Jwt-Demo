@@ -1,0 +1,32 @@
+.ant-steps {
+  .ant-steps-item-icon {
+    cursor: pointer;
+  }
+
+  .ant-steps-item {
+    display: inline-block !important;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 25px !important;
+  }
+
+  @media (max-width: 480px) {
+    .ant-steps-item-content {
+      display: none !important;
+    }
+
+    .ant-steps-item-icon {
+      margin-right: 0 !important;
+    }
+
+    .ant-steps-item {
+      margin-right: 0 !important;
+    }
+
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 280px !important;
+  }
+}

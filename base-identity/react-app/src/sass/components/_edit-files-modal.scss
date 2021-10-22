@@ -1,0 +1,17 @@
+.edit-files-modal {
+  .ant-upload-drag {
+    .ant-upload-drag-container {
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .upload-text-container {
+        margin: 0 auto;
+        max-width: 350px;
+        .ant-upload-hint {
+          font-size: 12px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}

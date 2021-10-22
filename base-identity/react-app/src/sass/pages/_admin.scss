@@ -1,0 +1,38 @@
+@import "../ant-design-override/button";
+
+.admin-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+
+  .menu-side-bar {
+    .ant-btn {
+      margin-bottom: 5px;
+    }
+  }
+
+  .dropdown-row {
+    margin: 10px auto 40px;
+    .dropdown {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+
+  .add-button-row {
+    margin-top: 20px;
+    text-align: right;
+  }
+
+  .dropdown-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    margin: auto;
+
+    @include button-style(transparent, $ant-border-color, $text-dark);
+    @include button-glow($ant-border-color);
+  }
+  
+}

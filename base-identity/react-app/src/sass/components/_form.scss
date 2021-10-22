@@ -1,0 +1,24 @@
+form {
+  .form-button-row {
+    text-align: right;
+    button,
+    span {
+      &:not(:last-of-type) {
+        margin-right: 10px;
+      }
+    }
+  }
+  .long-label {
+    .ant-form-item-label {
+      white-space: initial;
+      line-height: 1.7;
+      text-align: left;
+    }
+  }
+  .full-width-input {
+    margin-bottom: 0;
+    .ant-form-item-control-wrapper {
+      width: 100%;
+    }
+  }
+}

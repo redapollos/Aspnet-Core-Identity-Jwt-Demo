@@ -1,0 +1,22 @@
+{
+  "nav.home": "Home",
+  "table.add": "Add",
+
+  "app.user.title": "Manage Your Profile",
+
+  "manage.dashboard.title": "Administration Dashboard",
+  "manage.users.title": "Users",
+  "manage.users.add": "Add User",
+  "manage.user.modal.adduser": "Add a User",
+  "manage.users.addrole": "Add Role",
+  "manage.user.modal.addrole": "Choose a Role to Add",
+  "manage.roles.title": "Roles",
+  "manage.role.title": "Role",
+
+  "noaccess.button": "Try to Login Again",
+  "noaccess.title": "DSG Portal",
+  "noaccess.blurb": "You don't have access",
+  "popup.profile": "Manage Profile",
+  "popup.setting": "Settings",
+  "popup.logout": "Logout"
+}
