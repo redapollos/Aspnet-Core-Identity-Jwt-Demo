@@ -64,13 +64,13 @@ namespace RainstormTech
             {
                 c.SwaggerDoc("v1", 
                     new OpenApiInfo { 
-                        Title = "Base App API", 
+                        Title = "Sweet System API", 
                         Version = "v1",
                         Description = "API for handling user/content data",
                         // TermsOfService = new Uri("https://example.com/terms"),
                         Contact = new OpenApiContact
                         {
-                            Name = "Kristian Ranstrom",
+                            Name = "Some Developer",
                             Email = string.Empty,
                             Url = new Uri("https://rainstormtech.com"),
                         },
@@ -219,7 +219,7 @@ namespace RainstormTech
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Storm-CMS V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Sweet System V1");
             });
 
             // handle DB seeding
