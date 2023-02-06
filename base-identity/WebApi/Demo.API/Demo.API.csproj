@@ -5,6 +5,7 @@
     <AssemblyName>Demo.API</AssemblyName>
     <RootNamespace>RainstormTech</RootNamespace>
     <Version>0.1.0</Version>
+    <UserSecretsId>6fca10d6-e1e9-496c-9329-4e4955befdf6</UserSecretsId>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
